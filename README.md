@@ -1,5 +1,5 @@
 # chrome http requests extension
-Chrome extension to log data that server and client exchange.
+Chrome extension to log data that server and client exchange.<br>
 To install:
 
   1. Download the code
