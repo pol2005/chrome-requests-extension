@@ -1,0 +1,23 @@
+{
+  "name":"Πανεπιστήμιο Πειραιά",
+  "description":"Εργασια για το μάθημα της κρυπτογραφίας",
+  "version":"1.0",
+
+  "manifest_version":2,
+
+  "browser_action":{
+    "default_icon":"icons/icon.png",
+    "default_title": "Requests"
+  },
+
+  "background": {
+    "scripts": [ "js/background.js" ]
+  },
+
+  "permissions":[
+    "activeTab",
+    "webRequest",
+    "http://*/",
+    "https://*/"
+  ]
+}
